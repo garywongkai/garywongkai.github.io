@@ -51,7 +51,7 @@
         </div>
       </nav>
       <!-- About me and background-->
-      <section id="section" class="one"><h1 style="color: rgb(0, 0, 0);"><h1 class="text-sm-center">My Profile</h1></h1>
+      <section id="section" class="one"><div class="container"><h1 style="color: rgb(0, 0, 0);"class="text-sm-center">My Profile</h1></div>
         <div class="container">
           <div class="main-body">      
                 <div class="row gutters-sm">
@@ -120,10 +120,13 @@
           </div>
       </section>
       <!-- My skillsets-->
-      <section id="section" class="tag two"><h1 style="color: rgb(54, 115, 139);">My Skills</h1>
+      <section id="section" class="tag two">
+        <br>
         <div class="text-dark container-fluid flex-wrap justify-content-md-center">
         <div class="card">
           <div class="card-body">
+            <h1 style="color: rgb(54, 115, 139);">My Skills</h1>
+            <hr>
             <p class="card-title">My current languages, frameworks, libraries and platforms that I use are listed below! </p>
             <p class="card-text">I hope to grow this list of skillsets over the course of my learning in university and in the workplace!</p>
           </div>
@@ -173,7 +176,44 @@
             </div>
           </section>
       <!-- My timeline aka what i did-->
-      <section id="section" class="tag three"><h1 style="color: rgb(250, 250, 250);">Timeline</h1>
+      <section id="section" class="tag three">
+        <br><br>
+        <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="card">
+                      <div class="card-body">
+                          <h6 class="card-title">Timeline</h6>
+                          <div id="content">
+                              <ul class="timeline">
+                                  <li class="event" data-date="2006 - 2011">
+                                      <h3>Elementary School</h3>
+                                      <p>Took my PSLE at Lianhua Primary School!</p>
+                                  </li>
+                                  <li class="event" data-date="2012 - 2016">
+                                      <h3>Secondary School</h3>
+                                      <p>Enrolled in Bukit View Secondary School and went on to secondary 5 to take 'O' Levels
+                                      and represented the school in West Zone Competitions for Table Tennis!</p>
+                                  </li>
+                                  <li class="event" data-date="2017 - 2019">
+                                      <h3>Polytechnic!</h3>
+                                      <p>Graduated with a Diploma in Computer Engineering in Singapore Polytechnic!</p>
+                                  </li>
+                                  <li class="event" data-date="2020 - 2022">
+                                      <h3>National Service</h3>
+                                      <p>Served the country as an admin assistant, designer and programmer in my Unit!</p>
+                                  </li>
+                                  <li class="event" data-date="2022 - Present">
+                                    <h3>University</h3>
+                                    <p>Studying for a Degree in Computer Science in the National University of Singapore(NUS) and I hope to expand my skillset in the future!</p>
+                                </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
       </section>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
