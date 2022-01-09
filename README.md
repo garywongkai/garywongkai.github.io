@@ -1,3 +1,4 @@
 # garywongkai.github.io
+
 Currently in progress!
-Time Spent: 2 hours!
+Time Spent: 3 hours 42minutes!
