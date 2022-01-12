@@ -90,15 +90,15 @@ h1 {
 }
 
 .one {
-	background-image: url("././img/1.jpg");
+	background-color: black;
 	background-size: cover;
 }
 .two {
-	background-image: url("././img/2.jpg");
+	background-color: black;
 	background-size: cover;
 }
 .three {
-	background-image: url("././img/3.jpg");
+	background-color: black;
 	background-size: cover;
 }
 /*
@@ -113,9 +113,11 @@ h1 {
 }
 .main-body {
 	padding: 15px;
+	border: #fdfdfd;
 }
 .card {
-	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+		0 1px 2px 0 rgba(255, 255, 255, 0.06);
 }
 
 .card {
@@ -124,9 +126,9 @@ h1 {
 	flex-direction: column;
 	min-width: 0;
 	word-wrap: break-word;
-	background-color: #fff;
+	background-color: rgb(0, 0, 0);
 	background-clip: border-box;
-	border: 0 solid rgba(0, 0, 0, 0.125);
+	border: 0 solid rgba(0, 0, 0, 0.959);
 	border-radius: 0.25rem;
 }
 
@@ -352,10 +354,16 @@ h1 {
 }
 .read-more:after {
 	content: "\f0a9";
-	font-family: Font Awesome\5 Free;
+	font-family: Font awesome\5 Free;
 	font-weight: 600;
 	padding-left: 8px;
 	font-weight: 900;
 	color: #00baee;
 	vertical-align: middle;
+}
+
+.center {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
 }
